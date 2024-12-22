@@ -1,4 +1,4 @@
-# Use_components_in_React_Native
+# Use_components_in_React_Native and TextInput
 
 ## 2020ICT57
 
@@ -9,6 +9,7 @@ This project is a basic mobile app built with React Native and Expo, featuring a
 ### Files
 - **App.js**: Initializes and sets up the main app structure, providing a layout with Material Design components and rendering the Home component. 
 - **Home.js**:  Displays a headline, body text, and a button with basic styling using React Native Paper components.
+- **ContactUs.js**: This file is a React Native component designed to create a contact form with input fields and a description.
 
 
 ## Technologies Used
