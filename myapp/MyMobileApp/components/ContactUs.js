@@ -2,6 +2,7 @@ import { StyleSheet, View } from 'react-native';
 import { Text, Divider, TextInput } from 'react-native-paper';
 
 export default function ContactUs(){
+    const[name,setName]=useState();
     return(
         <>
         <View style={styles.header}>
@@ -10,7 +11,7 @@ export default function ContactUs(){
         </View>
         <View style={styles.body}>
             <View style={styles.input}>
-                 <TextInput label="Name" mode='outlined' /> 
+                 <TextInput label="Name" mode='outlined' value={name} onChangeText={setName}/> 
             </View>
             <View style={styles.input}>
                  <TextInput label="Email" mode='outlined' keyboardType='email-address'/>
@@ -21,6 +22,7 @@ export default function ContactUs(){
             <View style={styles.input}>
                  <TextInput label="Message" mode='outlined' multiline numberOfLines={5}/> 
             </View>
+            <Text>{name}</Text>
             
         </View>
         <View style={styles.footer}>
