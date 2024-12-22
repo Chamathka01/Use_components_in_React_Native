@@ -13,10 +13,10 @@ export default function ContactUs(){
                  <TextInput label="Name" mode='outlined' /> 
             </View>
             <View style={styles.input}>
-                 <TextInput label="Email" mode='outlined' /> 
+                 <TextInput label="Email" mode='outlined' keyboardType='email-address'/>
             </View>
             <View style={styles.input}>
-                 <TextInput label="Phone number" mode='outlined' /> 
+                 <TextInput label="Phone number" mode='outlined' keyboardType='phone-pad'/> 
             </View>
             <View style={styles.input}>
                  <TextInput label="Message" mode='outlined' multiline numberOfLines={5}/> 
