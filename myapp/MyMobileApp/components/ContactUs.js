@@ -1,19 +1,30 @@
-import { StyleSheet, View, ScrollView } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default function ContactUs(){
     return(
         <>
+        <View style={styles.header}>
+        </View>
+        <View style={styles.body}>
+        </View>
+        <View style={styles.footer}>
+        </View>
         </>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flexDirection: 'column',
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      padding: 10
+    header: {
+      flex:3,
+      width:"100%"
+    },
+    body: {
+        flex:5,
+        width:"100%"
+    },
+    footer: {
+        flex:2,
+        width:"100%"
     }
   });
   
