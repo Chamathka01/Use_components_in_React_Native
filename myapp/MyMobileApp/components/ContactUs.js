@@ -11,6 +11,7 @@ export default function ContactUs(){
         <View style={styles.body}>
         </View>
         <View style={styles.footer}>
+            <Text>MyApp © 2024</Text>
         </View>
         </>
     );
