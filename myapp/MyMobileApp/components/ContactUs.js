@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Text, Divider, TextInput } from 'react-native-paper';
+import { Text, Divider, TextInput, Button } from 'react-native-paper';
 
 export default function ContactUs(){
     const[name,setName]=useState();
