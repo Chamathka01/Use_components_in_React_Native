@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { Text, Divider, TextInput } from 'react-native-paper';
 
 export default function ContactUs(){
