@@ -9,8 +9,19 @@ export default function ContactUs(){
         <Divider/>
         </View>
         <View style={styles.body}>
-            <TextInput label="Name" mode='outlined' />
-            <TextInput label="Email" mode='outlined' />
+            <View style={styles.input}>
+                 <TextInput label="Name" mode='outlined' /> 
+            </View>
+            <View style={styles.input}>
+                 <TextInput label="Email" mode='outlined' /> 
+            </View>
+            <View style={styles.input}>
+                 <TextInput label="Phone number" mode='outlined' /> 
+            </View>
+            <View style={styles.input}>
+                 <TextInput label="Message" mode='outlined' multiline numberOfLines={5}/> 
+            </View>
+            
         </View>
         <View style={styles.footer}>
             <Text>MyApp © 2024</Text>
@@ -23,7 +34,9 @@ const styles = StyleSheet.create({
     header: {
       flex:3,
       width:"100%",
-      alignItems: 'center'
+      alignItems: 'center',
+      padding:10,
+      marginBottom:10
     },
     body: {
         flex:5,
@@ -33,6 +46,10 @@ const styles = StyleSheet.create({
         flex:2,
         width:"100%",
         alignItems: 'center'
+    },
+    input:{
+        padding:8,
+        marginBottom:7
     }
   });
   
